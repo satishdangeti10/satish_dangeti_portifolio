@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Satish Dangeti Portifolio website</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="main_header">
+      <nav class="nav main_grid">
+        <div>
+          <a href="#" class="logo_nav"
+            ><span class="header-t1">Satish</span> Dangeti</a
+          >
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#exp" class="nav__link">Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main_container">
+      <!--===== HOME PAGE =====-->
+      <section class="home main_grid" id="home">
+        <div class="home_container">
+          <h1 class="name_title">
+            Hi,<br />I'm <span class="title_name">Satish Dangeti</span><br />
+            <span id="dynamic-title" class="title_roll">Web </span>Developer
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+          <a
+            href="assets/pdf/Satish_Dangeti_SFCC_3_resume.pdf"
+            download
+            class="button button_download"
+            >Resume <i style="font-size: 1.2rem" class="bx bx-download"></i>
+          </a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/satish-dangeti-8977a5161/"
+            class="icons_social"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/satishdangeti10" class="icons_social"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/satishdangetii/?next=%2F"
+            class="icons_social"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <svg
+            class="home__circle"
+            viewBox="0 0 600 600"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <!-- Smooth Circle Shape -->
+            <circle cx="300" cy="300" r="300" fill="#6C63FF" />
+
+            <!-- Mask for Image -->
+            <mask id="circleMask" mask-type="alpha">
+              <circle cx="300" cy="300" r="300" />
+            </mask>
+
+            <g mask="url(#circleMask)">
+              <!-- Background Color -->
+              <rect width="500" height="500" fill="#ff914d" />
+
+              <!-- Image inside the circle -->
+              <image
+                class="home__circle-img"
+                x="0"
+                y="0"
+                width="600"
+                height="600"
+                href="assets/img/image.png"
+                preserveAspectRatio="xMidYMid slice"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container main_grid">
+          <div class="about__img">
+            <img src="assets/img/image_back.jpg" alt="" />
+          </div>
+          <div>
+            <h2 class="about__subtitle">3+ years of experience</h2>
+            <p class="about_me">
+              I am a <span class="brown_high">front-end developer</span> with
+              over 3 years of experience crafting responsive, mobile-first web
+              solutions and e-commerce platforms. Proficient in modern
+              technologies like
+              <span class="green_high"
+                >React, JavaScript, ISML, CSS, SCSS, HTML, AJAX, and
+                NodeJs</span
+              >, I excel in creating high-performance, accessible, and visually
+              engaging user interfaces.
+            </p>
+            <br />
+            <p class="about_me">
+              As a certified
+              <span class="brown_high"
+                >Salesforce B2C Commerce (SFCC) Developer</span
+              >, I specialize in building user-centric interfaces and
+              customizing SFCC cartridges to deliver seamless online shopping
+              experiences. My expertise lies in bridging front-end technologies
+              with scalable e-commerce solutions, ensuring optimal performance
+              and user satisfaction.
+            </p>
+
+            <br />
+            <a
+              href="assets/pdf/Satish_Dangeti_SFCC_3_resume.pdf"
+              download
+              class="button button_download"
+              >Resume <i style="font-size: 1.2rem" class="bx bx-download"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work experience -->
+      <section class="skills section" id="exp">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience_container main_grid" style>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                <h3>SFCC B2C / Demandware Developer</h3>
+                <h4>Tata Consultancy Services | 2023 - 2025</h4>
+                <ul class="ex_list">
+                  <li>
+                    Developed responsive, mobile-first e-commerce web
+                    applications using JavaScript and CSS frameworks.
+                  </li>
+                  <li>
+                    Created and customized templates, content assets, and
+                    content slots using ISML to enhance user experience.
+                  </li>
+                  <li>
+                    Participated in migrating platforms from SAP_CDC to
+                    Salesforce Commerce Cloud.
+                  </li>
+                  <li>
+                    Designed and implemented user journeys and interfaces for
+                    multiple user types.
+                  </li>
+                  <li>
+                    Integrated SFCC with services like SFSC, ChannelSight, and
+                    SFMC, and worked on payment integration and OMS.
+                  </li>
+                  <li>
+                    Customized Salesforce Commerce Cloud cartridges and created
+                    custom page designer components.
+                  </li>
+                  <li>
+                    Implemented custom jobs for managing customer data and
+                    optimized business manager configurations.
+                  </li>
+                  <li>
+                    Developed Wishlist, FAQ, Reviews, and other features for
+                    e-commerce platforms.
+                  </li>
+                  <li>
+                    Managed version control systems (Git, Bitbucket) and
+                    documented release notes, test cases, and status reports.
+                  </li>
+                  <li>
+                    Monitored logs, replications, service statuses, and handled
+                    bug fixes and production issues.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon"></div>
+              <div class="timeline-content">
+                <h3>Frontend Developer</h3>
+                <h4>Tata Consultancy Services | 2022 - 2023</h4>
+                <ul class="ex_list">
+                  <li>
+                    Developed responsive, mobile-first e-commerce platforms
+                    using modern front-end technologies like React.js,
+                    JavaScript (ES6+), SCSS, HTML5, and Bootstrap to ensure
+                    engaging user interfaces.
+                  </li>
+                  <li>
+                    Built and customized dynamic templates and reusable
+                    components in React.js, improving development efficiency and
+                    application performance.
+                  </li>
+                  <li>
+                    Integrated third-party APIs using Ajax and tools like
+                    Postman, enabling smooth data exchange with external
+                    systems.
+                  </li>
+                  <li>
+                    Implemented React Router for seamless navigation, enhancing
+                    the user journey across multiple pages and user types.
+                  </li>
+                  <li>
+                    Conducted front-end testing using tools like Jest and
+                    Browser Developer Tools to ensure high-quality, bug-free
+                    releases.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams to implement UI
+                    designs and integrate front-end components with backend
+                    services.
+                  </li>
+                  <li>
+                    Created and maintained subscription journeys and
+                    user-specific features like Wishlist, FAQ, and Reviews
+                    sections to improve user engagement.
+                  </li>
+                  <li>
+                    Managed version control and collaborative development
+                    workflows using Git and Bitbucket, ensuring efficient
+                    teamwork.
+                  </li>
+                  <li>
+                    Worked on bug fixes, production issues, and ServiceNow
+                    change requests (SCTASKS) to maintain system stability and
+                    performance.
+                  </li>
+                  <li>
+                    Documented project details, including test cases, release
+                    notes, and user guides, ensuring smooth project handoffs and
+                    ongoing updates.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container main_grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">I have good knowledge on below skills</p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-code-alt skills__icon"></i>
+                <span class="skills__name">SFCC B2C</span>
+              </div>
+              <div class="skills__bar skills__b2c"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-react skills__icon"></i>
+                <span class="skills__name">React Js</span>
+              </div>
+              <div class="skills__bar skills__react"></div>
+              <div>
+                <span class="skills__percentage">60%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-jquery skills__icon"></i>
+                <span class="skills__name">jQuery</span>
+              </div>
+              <div class="skills__bar skills__jquery"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-nodejs skills__icon"></i>
+                <span class="skills__name">NodeJs</span>
+              </div>
+              <div class="skills__bar skills__node"></div>
+              <div>
+                <span class="skills__percentage">70%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-wordpress skills__icon"></i>
+                <span class="skills__name">WordPress</span>
+              </div>
+              <div class="skills__bar skills__press"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="work__container main_grid">
+          <a href="" class="work__img">
+            <img src="assets/img/iuuup.webp" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/ecommerce.png" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/digi.png" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/vv.webp" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/wordpress.png" alt="" />
+          </a>
+          <a href="" class="work__img">
+            <img src="assets/img/salesforce_b2c_resized.png" alt="" />
+          </a>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container main_grid">
+          <div class="container">
+            <div class="contact-info">
+              <div class="info-box custom_email">
+                <i class="bx bx-map"></i>
+                <h4>Address</h4>
+                <p>Hyderabad, Telengana</p>
+              </div>
+              <div class="info-box custom_email">
+                <i class="bx bx-envelope"></i>
+                <h4>Mail Me</h4>
+                <a href="mailto:satishdangeti155@gmail.com"
+                  >satishdangeti155@gmail.com
+                </a>
+              </div>
+              <div class="info-box">
+                <i class="bx bxs-phone"></i>
+                <h4>Telephone</h4>
+                <a href="tel:8142463871">+91 8142463871</a>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form action="#" method="post">
+                <div class="form-row">
+                  <input type="text" placeholder="Your Name" required />
+                  <input type="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-row">
+                  <input type="tel" placeholder="Your Phone" required />
+                </div>
+                <!-- <input type="text" placeholder="Subject" /> -->
+                <textarea placeholder="Message" rows="5"></textarea>
+                <div class="form_send">
+                  <button
+                    id="send_message"
+                    class="button contact__button"
+                    type="submit"
+                  >
+                    Send Message <i class="bx bx-send"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map_end">
+        <div class="map">
+          <iframe
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Gupta%20niwas,%20PNR%20township,%20Indresham,%20Patancheru+(Satish%20Dangeti)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            width="90%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER SECTION =====-->
+    <footer class="footer">
+      <p class="footer__title"><span class="footer-t1">Satish</span> Dangeti</p>
+      <div class="social_icons">
+        <a
+          href="https://www.linkedin.com/in/satish-dangeti-8977a5161/"
+          class="icons"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/satishdangeti10" class="icons"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/satishdangetii/?next=%2F"
+          class="icons"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+      <p class="footer__copy">Satish Dangeti. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL Animation =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
