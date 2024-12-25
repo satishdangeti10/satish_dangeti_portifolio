@@ -427,16 +427,40 @@
             </div>
 
             <div class="contact-form">
-              <form action="#" method="post">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="6a929934-763e-4bd3-953d-c3b4e34915ac"
+                />
                 <div class="form-row">
-                  <input type="text" placeholder="Your Name" required />
-                  <input type="email" placeholder="Your Email" required />
+                  <input
+                    name="User name"
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                  />
+                  <input
+                    name="User email"
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                  />
                 </div>
                 <div class="form-row">
-                  <input type="tel" placeholder="Your Phone" required />
+                  <input
+                    name="User mobile number"
+                    type="tel"
+                    placeholder="Your Phone"
+                    required
+                  />
                 </div>
                 <!-- <input type="text" placeholder="Subject" /> -->
-                <textarea placeholder="Message" rows="5"></textarea>
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
                 <div class="form_send">
                   <button
                     id="send_message"
